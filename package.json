@@ -5,16 +5,38 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "serve": "next start",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@mdx-js/react": "^2.1.1",
+    "framer-motion": "^6.3.6",
     "next": "12.1.6",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "polished": "^4.2.2",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-ga": "^3.3.0",
+    "react-icons": "^4.4.0",
+    "react-modal": "^3.15.1",
+    "react-scroll": "^1.8.7",
+    "react-stickynode": "^4.0.0",
+    "responsive-embed": "^1.0.0",
+    "theme-ui": "^0.14.5",
+    "typeface-dm-sans": "^1.1.13"
   },
   "devDependencies": {
     "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
+    "next-sitemap": "^2.5.28",
+    "prettier": "^2.6.2"
   }
 }
