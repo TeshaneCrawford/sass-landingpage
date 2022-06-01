@@ -1,13 +1,13 @@
 /** @jsxRuntime classic /
 /* @jsx jsx */
 import { jsx, Box, Container } from 'theme-ui';
-import SectionHeading from 'components/section-heading';
-import UltimateFeature from 'components/cards/ultimate-feature';
+import SectionHeading from '../components/section-heading';
+import UltimateFeature from '../components/cards/ultimate-feature';
 
-import bulb from 'assets/images/icons/bulb-2.png';
-import diamond from 'assets/images/icons/diamond.png';
-import help from 'assets/images/icons/help.png';
-import award from 'assets/images/icons/award.png';
+import bulb from '../assets/images/icons/bulb-2.png';
+import diamond from '../assets/images/icons/diamond.png';
+import help from '../assets/images/icons/help.png';
+import award from '../assets/images/icons/award.png';
 
 const data = [
   {
