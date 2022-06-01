@@ -1,6 +1,7 @@
-/** @jsx jsx */
+/** @jsxRuntime classic /
+/* @jsx jsx */
 import { jsx, Box, Heading } from 'theme-ui';
-import { Link } from 'components/link';
+import { Link } from './link';
 import { rgba } from 'polished';
 
 const FooterWidget = ({ title, items }) => {

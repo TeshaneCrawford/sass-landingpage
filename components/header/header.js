@@ -1,10 +1,11 @@
-/** @jsx jsx */
+/** @jsxRuntime classic /
+/* @jsx jsx */
 import { jsx, Box, Container, MenuButton, Flex, Button } from 'theme-ui';
 import { useState } from 'react';
 import { GrClose } from 'react-icons/gr';
 import Sticky from 'react-stickynode';
-import Logo from 'components/logo';
-import { NavLink } from 'components/link';
+import Logo from '../logo';
+import { NavLink } from '../link';
 import menuItems from './header.data';
 
 export default function Header() {

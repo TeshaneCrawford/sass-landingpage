@@ -1,4 +1,5 @@
-/** @jsx jsx */
+/** @jsxRuntime classic /
+/* @jsx jsx */
 import { jsx, Link as A } from 'theme-ui';
 import { Link as MenuLink } from 'react-scroll';
 import NextLink from 'next/link';

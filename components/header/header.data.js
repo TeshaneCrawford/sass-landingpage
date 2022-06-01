@@ -1,4 +1,4 @@
-export default [
+const header = [
   {
     path: 'home',
     label: 'Home',
@@ -16,3 +16,5 @@ export default [
     label: 'Faq',
   },
 ];
+
+export default header;

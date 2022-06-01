@@ -1,4 +1,6 @@
-/** @jsx jsx */
+/** @jsxRuntime classic /
+/* @jsx jsx */
+/* @jsxFrag React.Fragment */
 import { jsx } from 'theme-ui';
 import React from 'react';
 import Header from './header/header';
