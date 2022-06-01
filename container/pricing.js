@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { keyframes } from '@emotion/core';
 import { jsx, Box, Grid, Container, Flex, Text, Button } from 'theme-ui';
-import SectionHeading from 'components/section-heading';
-import PriceTable from 'components/cards/price-table';
+import SectionHeading from '../components/section-heading';
+import PriceTable from '../components/cards/price-table';
 import { rgba } from 'polished';
 
 const monthly = [

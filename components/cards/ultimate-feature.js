@@ -1,4 +1,5 @@
-/** @jsx jsx */
+/** @jsxRuntime classic /
+/* @jsx jsx */
 import { jsx, Box, Image, Heading, Text } from 'theme-ui';
 
 const UltimateFeature = ({ data, ...props }) => {
